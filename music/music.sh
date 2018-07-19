@@ -12,8 +12,10 @@ sudo apt-get install mpd
 sudo apt-get install mpc
 sudo apt-get install ncmpcpp
 #Setup mpd
-sudo systemctl enable mpd.service
+
+sudo /etc/init.d/mpd stop
+sudo update-rc.d mpd disable
 cp music.config ~/.mpd/mpd.conf
-mpd > /dev/null 2>&1
-killall mpd
+cp "Music Player Daemon.desktop" /home/ziga/.config/autostart/"Music Player Daemon.desktop"
+cp ncmpcpp.sh ~/.ncmpcpp/config
 mpd
