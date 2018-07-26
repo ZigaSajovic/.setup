@@ -41,3 +41,5 @@ cd
 
 #base16
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+#oceanic-next
+wget https://raw.githubusercontent.com/denysdovhan/oceanic-next-gnome-terminal/master/oceanic-next.bash && chmod +x oceanic-next.bash && ./oceanic-next.bash
