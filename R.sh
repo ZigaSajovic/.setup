@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" | sudo tee -a /etc/apt/sources.list
 
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 directories="~/Music ~/Playlists ~/.mpd"
 
 for directory in $directories; do

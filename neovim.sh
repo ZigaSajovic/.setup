@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 cd ~
 git clone https://github.com/neovim/neovim.git
 cd neovim
