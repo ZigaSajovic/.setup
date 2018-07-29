@@ -5,4 +5,3 @@ sudo apt install xserver-xorg-input-libinput
 sudo apt-get install xcape 
 #modkeys
 sudo apt-get install xbacklight alsa-utils pulseaudio
-sudo apt-get install feh
