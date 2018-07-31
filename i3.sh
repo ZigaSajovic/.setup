@@ -29,4 +29,7 @@ sudo apt-get install arandr
 sudo apt-get install feh
 sudo apt-get install lxappearance
 sudo apt-get install compton
-sudo apt-get install rofi
+sudo add-apt-repository ppa:jasonpleau/rofi
+sudo apt update
+sudo apt install rofi
+
