@@ -15,6 +15,8 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 #fzf-findr
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+#silver searcher
+sudo apt-get install silversearcher-ag
 #qutebrowser
 git clone https://github.com/qutebrowser/qutebrowser.git
 cd qutebrowser
